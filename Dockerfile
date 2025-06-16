@@ -224,7 +224,6 @@ RUN apk add --no-cache \
 USER 5050
 
 # Finish up
-VOLUME /var/lib/pgadmin
 EXPOSE 80 443
 
 ENTRYPOINT ["/entrypoint.sh"]
